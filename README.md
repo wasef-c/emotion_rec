@@ -3,12 +3,16 @@ Emotion Recognition
 
 The  proposed model will be a multi-class LSTM model for emotion recognition of speech signals. 
 
-It will be trained on the ASVP-ESD(Speech & Non-Speech Emotional Sound) database which contains 12625 audio files and can be found here:
 
-https://www.kaggle.com/datasets/dejolilandry/asvpesdspeech-nonspeech-emotional-utterances 
+
+Toronto Emotional Speech Set Data (TESS)
+Ryerson Audio-Visual Database of Emotional Speech and Song(RAVDESS)
+Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D)
+Interactive Emotional Dyadic Motion Capture (IEMOCAP)
+
 
 The Target column (y) will be the emotion classification.
 
-The features will be the audio signal as a whole. 
 
-Feature extraction will include pitch, harmonics, and MFC coeffificents
+
+Feature extraction will be done to extract Mel-frequency cepstral coefficients as numerical features
