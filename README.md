@@ -3,7 +3,7 @@ Emotion Recognition
 
 The  proposed model will be a multi-class LSTM model for emotion recognition of speech signals. 
 
-It will uses data from the following datasets
+It uses data from the following datasets
 
       Toronto Emotional Speech Set Data (TESS) - Two actresses, 2800 samples
       
