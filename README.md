@@ -5,13 +5,15 @@ The  proposed model will be a multi-class LSTM model for emotion recognition of 
 
 It will uses data from the following datasets
 
-      [Toronto Emotional Speech Set Data (TESS)]([url](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess))
+      Toronto Emotional Speech Set Data (TESS) - Two actresses, 2800 samples
       
-      Ryerson Audio-Visual Database of Emotional Speech and Song(RAVDESS)
+      Ryerson Audio-Visual Database of Emotional Speech and Song(RAVDESS) - 24 Actors, 1440 samples
       
-      Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D)
+      Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D) - 91 Actors,  7,442 samples
       
-      Interactive Emotional Dyadic Motion Capture (IEMOCAP)
+      Interactive Emotional Dyadic Motion Capture (IEMOCAP) - 10 actors, 4,532 samples
+
+In total, over  16,000 samples are used, produced by 127 different actors/voices
 
 
 
