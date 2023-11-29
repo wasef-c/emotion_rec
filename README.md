@@ -24,7 +24,9 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 **STEPS FOR DEPLOYMENT**
 
 
-   **_NOTE: if you don't want to download over 30gb of original data from the audio datasets, numpy arrays of the MFCCs and labels are available under the release tagged Data in X_Tr008, Y_Tr008 for training and X_Te008 and Y_Te008 for testing. That way you can start at Step 2_**
+   _NOTE: if you don't want to download over 30gb of original data from the audio datasets, numpy arrays of the MFCCs and labels are available under the release tagged Data in X_Tr008, Y_Tr008 for training and X_Te008 and Y_Te008 for testing. That way you can start at Step 2_
+
+  _NOTE 2: If you want to deploy the trained model it is available as cnn_attention_lstm_model_OPTIMIZED.pt_
    
 
 **1. DATA_PREPROCESSING.ipynb**
