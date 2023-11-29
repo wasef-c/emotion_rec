@@ -77,24 +77,15 @@ To conduct feature analysis, the MFCCs were reduced into 435 unique numerical fe
 **PERFORMANCE METRICS**
 
 The performance metrics used were:
-Accuracy:
-Justification: I chose accuracy as it offers an overall assessment of my model's performance in predicting emotions across all classes. It's an intuitive metric to understand, but I'm aware that if there's a class imbalance, accuracy might not fully represent the model's effectiveness, especially when one class is more dominant.
+**Accuracy:** I chose accuracy as it offers an overall assessment of my model's performance in predicting emotions across all classes. It's an intuitive metric to understand, but I'm aware that if there's a class imbalance, accuracy might not fully represent the model's effectiveness, especially when one class is more dominant.
 
-F1 Score:
+**F1 Score:** I find the F1 score crucial due to the imbalance in classes, particularly with 'neutral' being more prevalent. It considers both precision and recall, effectively balancing false positives and false negatives. This metric provides a comprehensive overview of the model's performance, giving equal importance to all emotions without biasing towards a specific one.
 
-Justification: I find the F1 score crucial due to the imbalance in classes, particularly with 'neutral' being more prevalent. It considers both precision and recall, effectively balancing false positives and false negatives. This metric provides a comprehensive overview of the model's performance, giving equal importance to all emotions without biasing towards a specific one.
+**Kappa:** I've included Kappa as it helps me assess the agreement between my predicted and actual emotions while accounting for chance agreement. Considering the imbalanced dataset, Kappa offers insights into whether my model's predictions are better than random chance, providing a more nuanced evaluation beyond what accuracy alone offers.
 
-Kappa:
+**MCC (Matthews Correlation Coefficient):** MCC is invaluable in my evaluation process as it takes into account true positives, true negatives, false positives, and false negatives. It quantifies the agreement between predictions and actual classes, considering all error types. Additionally, it serves as a clear indicator of whether my model performs better than random chance, which is crucial for understanding its true effectiveness.
 
-Justification: I've included Kappa as it helps me assess the agreement between my predicted and actual emotions while accounting for chance agreement. Considering the imbalanced dataset, Kappa offers insights into whether my model's predictions are better than random chance, providing a more nuanced evaluation beyond what accuracy alone offers.
-
-MCC (Matthews Correlation Coefficient):
-
-Justification: MCC is invaluable in my evaluation process as it takes into account true positives, true negatives, false positives, and false negatives. It quantifies the agreement between predictions and actual classes, considering all error types. Additionally, it serves as a clear indicator of whether my model performs better than random chance, which is crucial for understanding its true effectiveness.
-
-AUC:
-
-While AUC was used to compare models, it was not selected for final decision making due to the limitations of AUC on multi-class classification. It can be a reductive measure of performance. 
+**AUC:** While AUC was used to compare models, it was not selected for final decision making due to the limitations of AUC on multi-class classification. It can be a reductive measure of performance. 
 
 
 When conducting hyperparameter optimization validation loss, loss, training accuracy validation accuracy and F1 score were used. 
