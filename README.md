@@ -25,6 +25,8 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 
 **1. DATA_PREPROCESSING.ipynb**
    This notebook goes through the process of retrieving the data and producing the MFC coefficicents
+
+   **_if you don't want to download over 30gb of original data from the audio datasets, numpy arrays of the MFCCs and labels are available in X_Tr008, Y_Tr008 for training and X_Te008 and Y_Te008 for testing_**
    
 **2.Emotion_Classification_ModelComparison.ipynb**
   This notebook tests multiple model architectures and uses pycaret to compare different models
@@ -32,5 +34,5 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 **3. CNN_Training_BiDirectional_LSTM**
   This notebook trains a bi-directional LSTM model and utilizes hyperparameter tuning
   
-**4. Bi_DirectionalLSTM_Performance_Evaluation.ipynb**
+**4. BiLSTM_Training.ipynb**
   This notebook evaluates the performance of the final bi-directional LSTM model before and after hyperparameter tuning
