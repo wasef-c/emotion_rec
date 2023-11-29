@@ -41,7 +41,7 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 **4. BiLSTM_Training.ipynb**
   This notebook evaluates the performance of the final bi-directional LSTM model before and after hyperparameter tuning
 
-[**VIDEO LINK:**]([url](https://www.loom.com/share/e609e3d5549142de8148c23706324a50?sid=8e4bdab9-bd75-4cd8-a7d0-f48bc7a9bd11)) 
+[Click here to watch a video summarizing this repository](https://www.loom.com/share/e609e3d5549142de8148c23706324a50?sid=8e4bdab9-bd75-4cd8-a7d0-f48bc7a9bd11)
 
   **ABSTRACT**
   
