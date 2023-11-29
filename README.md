@@ -42,10 +42,12 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 
 
   **ABSTRACT**
+  
 Emotion recognition is a rapidly growing field of research in the world of AI. However, many existing approaches require multi-modal inputs (ecg, facial features, speech etc). This project specifically focuses on emotion recognition of vocal speech features. Additionally, a novel approach is taken by making use of four separate datasets comprising over 16,000 samples, produced by 127 different voices to ensure comprehensiveness and improve results on real world data. After careful consideration of various models and feature sets, Mel-Frequency Cepstral Coefficients (MFCC) emerged as the focal point for audio sample representation. A Hybrid LSTM model with Attention was deployed on the data and achieved an accuracy of 60.38% and an F1 score of 0.60 after rigorous hyperparameter optimization. The final model is a robust RNN with less built in bias than existing models. 
 
 
 **LITERATURE REVIEW**
+
 The field of speech emotion recognition (SER) faces challenges in artificial intelligence due to the variation in individual expression features. Additionally, the features themselves are less relevant but their characteristics between features. For example, happiness may have a higher pitch range than neutral [1]. To address this, a CNN with Long Short-Term Memory (LSTM) and Transformer Encoder model was developed to discern temporal dependencies in speech signals [1]. 
 A hybrid bi-directional LSTM, using MFCC, showcased significant recognition improvements over traditional classifiers, achieving notable performance with an accuracy of 75.62% and on the RAVDESS database alone, which consists of 24  professional actors [2]. After conducting vocal track length perturbation and layer optimizing, an accuracy of 61.7% was achieved on the IEMOCAP database alone which only consists of 10 different voices [1].
 Moreover, a novel approach utilizing Mel Spectrogram in conjunction with Mel Frequency Cepstral Coefficients (MFCC) was proposed, enhancing the 1D CNN with two unidirectional LSTM layers. The model was trained on the IEMOCAP database. Results indicated superior performance compared to baseline models with a combined accuracy of 58.29% when using speech only [3]. 
