@@ -23,11 +23,13 @@ Feature extraction will be done to extract Mel-frequency cepstral coefficients a
 
 **STEPS FOR DEPLOYMENT**
 
+
+   **_NOTE: if you don't want to download over 30gb of original data from the audio datasets, numpy arrays of the MFCCs and labels are available in X_Tr008, Y_Tr008 for training and X_Te008 and Y_Te008 for testing. That way you can start at Step 2_**
+   
+
 **1. DATA_PREPROCESSING.ipynb**
    This notebook goes through the process of retrieving the data and producing the MFC coefficicents
 
-   **_if you don't want to download over 30gb of original data from the audio datasets, numpy arrays of the MFCCs and labels are available in X_Tr008, Y_Tr008 for training and X_Te008 and Y_Te008 for testing_**
-   
 **2.Emotion_Classification_ModelComparison.ipynb**
   This notebook tests multiple model architectures and uses pycaret to compare different models
   
